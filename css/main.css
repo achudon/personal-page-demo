@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:700);
 
 body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
@@ -23,9 +24,38 @@ header a:visited {
 	padding: 0.5em 1em;
 }
 
+.tag-line {
+	font-family: 'Lobster Two', Lato, Helvetica, sans-serif;
+	font-size: 2em;
+	font-color: #EEEEEE;
+}
+
 header a:hover,
 header a:focus {
 	text-decoration: underline;
 	color:#FFFFFF;
 	background-color: #CC0000;
+}
+
+#about, #projects {
+	background-color: #F1D234;
+	overflow: auto;
+}
+
+#education, #contact {
+	background-color: #A66106;
+}
+
+#about img {
+	max-height: 400px;
+	float: left;
+	margin-right: 1em;
+}
+
+#education {
+	clear:both;
+}
+
+footer {
+	background-color: #D61C1A;
 }
